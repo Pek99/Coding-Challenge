@@ -1,0 +1,115 @@
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteiner{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+}
+
+#sfondonero{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+
+/* HEADER - LOGO */
+
+header{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding-top: 80px;
+}
+
+#img1{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h1header{
+    color: rgb(64, 225, 36);
+    width: max-content;
+    padding-top: 2%;
+    margin: auto;
+}
+
+
+/* NAV - BUTTON E "Taking.." */
+
+nav{
+    background-color: rgb(64, 225, 36);
+    width: 800px;
+    height: 35px;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+#navdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbutton{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+/* MAIN - INFO MONOPATTINI */
+
+main{
+    width: 800px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.divmonopattino{
+    margin-top: 30px;
+}
+
+.spanMonopattino{
+    color: white;
+    font-size: 20px;
+}
+
+.pMonopattino{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#CaricaGino{
+    width: 300px;
+    height: 23px;
+    background-color: rgb(255, 186, 59);
+    border-radius: 3px;
+}
+
+#CaricaMike{
+    width: 500px;
+    height: 23px;
+    background-color: rgb(12, 164, 12);
+    border-radius: 3px;
+}
+
+#CaricaFede{
+    width: 150px;
+    height: 23px;
+    background-color: rgb(204, 51, 51);
+    border-radius: 3px;
+}
